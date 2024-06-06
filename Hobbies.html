@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="icon" href="logogogogogo.png">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" 
+      crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"/>
+    <link rel="stylesheet" href="buttons-design.css">
+    <link rel="stylesheet" href="Deisng.css">
+    <title>Portfolio - Gab</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg py-3">
+        <div class="container">
+            <a href="index.html">
+                <img src="logo me.png" width="110px" height="auto">
+            </a>
+            <div class="navbar-toggler" id="menuToggle" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox" class="toggle">
+                <div class="bar bar--top"></div>
+                <div class="bar bar--middle"></div>
+                <div class="bar bar--bottom"></div>
+                </label>
+            </div>
+        </button>
+            <div class="container">
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="Knowmore.html" class="nav-link">Know more</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Social Media.html" class="nav-link">Social Media</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Hobbies.html" class="nav-link">Hobbies</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+      </nav>
+      <div class="container-lg"></div>
+      <section class="p-5 animate__animated animate__fadeInUp">
+        <div class="container-md">
+          <div class="row text-center g-4">
+            <div class="about-me p-5">
+              <p><b>I like playing Games</b></p>
+              <p class="lead"><b><i>(I do it a lot to calm myself and entertainment)</i></b></p>
+              <p><b>I also play basketball sometimes</b></p>
+              <p class="lead"><b><i>(I'm not a sporty person)</i></b></p>
+              <p><b>I'm passionate in programming</b></p>
+              <p class="lead"><b><i>(Currently learning Website development and wbesite designing)</i></b></p>
+              <br>
+              <br>
+              <p><b>These are the games i always play:</b></p>
+          </div>
+            <div class="row">
+              <div class="col-md cardsu animate__animated animate__bounceInLeft">
+                <div class="card text-light">
+                  <div class="roblox-card card-body text-center">
+                    <div class="h1 mb-3">
+                      <img src="Roblox_Logo_2021.png" width="100" height="100">
+                    </div>
+                    <h3 class="card-title mb-3">Roblox</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md cardsu animate__animated animate__bounceInLeft">
+                <div class="card text-light">
+                  <div class="valorant-card card-body text-center">
+                    <div class="h1 mb-3">
+                      <img src="banorant.png" width="100" height="100">
+                    </div>
+                    <h3 class="card-title mb-3">Valorant</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md cardsu animate__animated animate__bounceInUp">
+                <div class="card text-light">
+                  <div class="minecraft-card card-body text-center">
+                    <div class="h1 mb-3">
+                      <img src="minecraft.png" width="100" height="auto">
+                    </div>
+                    <h3 class="card-title mb-3">Minecraft</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md cardsu animate__animated animate__bounceInRight">
+                <div class="card text-light">
+                  <div class="wuthering-card card-body text-center">
+                    <div class="mb-3">
+                      <img src="wuthjering.png" width="100" height="auto">
+                    </div>
+                    <h3 class="card-title mb-3">Wuthering Waves</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md cardsu animate__animated animate__bounceInRight">
+                <div class="card text-light">
+                  <div class="farlight-card card-body text-center">
+                    <div class="h1 mb-3">
+                      <img src="farlight.ico" width="100" height="auto">
+                    </div>
+                    <h3 class="card-title mb-3">Farlight84</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
+    <script>
+    mapboxgl.accessToken =
+        'pk.eyJ1IjoiYnRyYXZlcnN5IiwiYSI6ImNrbmh0dXF1NzBtbnMyb3MzcTBpaG10eXcifQ.h5ZyYCglnMdOLAGGiL1Auw'
+      var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11',
+        center: [-71.060982, 42.35725],
+        zoom: 18,
+      })
+    </script>
+</body>
+</html>
