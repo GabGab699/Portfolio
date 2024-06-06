@@ -1,0 +1,114 @@
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.nav-item a{
+    font-size: 22px;
+    font-family: roboto;
+    margin-right: 2em;
+    color: #343a40;
+} .nav-item a:hover {
+    border-bottom: 2px solid #ced4da;
+    opacity: 0.6;
+}
+
+.navbar-nav {
+    margin-right: 5em;
+} 
+
+nav {
+    border-bottom: 3px solid #6c757d;
+    box-shadow: -1px -3px 46px -6px #6c757d;
+    -webkit-box-shadow: -1px -3px 46px -6px #6c757d;
+    -moz-box-shadow: -1px -3px 46px -6px #6c757d;
+}
+
+.box {
+    background-color: #adb5bd;
+    border-radius: 30px;
+    box-shadow: -2px 5px 87px -20px #adb5bd;
+    -webkit-box-shadow: -2px 5px 87px -20px #adb5bd;
+    -moz-box-shadow: -2px 5px 87px -20px #adb5bd;
+} .box p {
+    font-size: 23px;
+    font-family: source serif pro;
+    }
+
+.about-me {
+    font-size: 18px;
+}
+
+.card {
+    opacity: 0.89;
+    transition: ease-out 0.3s;
+}
+
+.card-1:hover, .card-2:hover, .card-3:hover, .card-4:hover, .card-5:hover {
+    transition: ease-in 0.2s;
+    opacity: 1;
+    border-radius: 30px;
+}
+
+.cards a {
+    text-decoration: none;
+
+}
+
+.card-body h3 {
+    color: white;
+    font-size: 20px;
+    font-family: robboto;
+}
+
+.roblox-card {
+    background-color: black;
+}
+.valorant-card {
+    background-color: #c1121f;
+}
+.minecraft-card {
+    background-color: #d5bdaf;
+}
+.wuthering-card {
+    background-color: #00b4d8;
+    font-size: ;
+}
+.farlight-card {
+    background-color: #f9c74f;
+}
+
+.card-body {
+    border-radius: 20px;
+}
+.cardsu div{
+    border-radius: 20px;
+}
+.card-body img {
+    border-radius: 10px;
+}
+
+@media (max-width: 1190px) {
+    .wuthering-card img {
+        width: 78px;
+        height: auto;
+    }
+    
+}
