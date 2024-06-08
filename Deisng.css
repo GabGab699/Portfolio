@@ -1,3 +1,6 @@
+
+/* Scrollbar Design */
+
 ::-webkit-scrollbar {
     width: 5px;
 }
@@ -11,6 +14,8 @@
     background: #555;
 }
 
+/* body not overflowing */
+
 html,body
 {
     width: 100%;
@@ -19,6 +24,8 @@ html,body
     padding: 0px;
     overflow-x: hidden; 
 }
+
+/* Navigation design */
 
 .nav-item a{
     font-size: 22px;
@@ -41,6 +48,7 @@ nav {
     -moz-box-shadow: -1px -3px 46px -6px #6c757d;
 }
 
+/* Section design */
 .box {
     background-color: #adb5bd;
     border-radius: 30px;
@@ -78,6 +86,8 @@ nav {
     font-family: robboto;
 }
 
+/* Card and games area design */
+
 .roblox-card {
     background-color: black;
 }
@@ -105,10 +115,42 @@ nav {
     border-radius: 10px;
 }
 
+.header-info {
+    font-size: 10px;
+    font-family: robboto;
+    display: none;
+}
+
+/* Media screen sizing */
+
 @media (max-width: 1190px) {
     .wuthering-card img {
         width: 78px;
         height: auto;
     }
     
+}
+
+@media (max-width: 400px) {
+    .about-me {
+        text-align: center;
+        margin-left: -45px;
+    }
+    .header-info {
+        margin-left: -100px;
+        display: block;
+    }
+    .Infobox {
+        margin-left: -2.5em;
+    }
+    .imageLogo {
+        width: 70px;
+        height: auto;
+    }
+    .nav-item a {
+        font-size: 15px;
+    }
+    .gamesBox {
+        padding-left: 40px;
+    }
 }
