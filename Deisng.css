@@ -99,7 +99,6 @@ nav {
 }
 .wuthering-card {
     background-color: #00b4d8;
-    font-size: ;
 }
 .farlight-card {
     background-color: #f9c74f;
@@ -152,5 +151,9 @@ nav {
     }
     .gamesBox {
         padding-left: 40px;
+    }
+    .introduction p {
+        font-size: 15px;
+        font-family: robboto;
     }
 }
