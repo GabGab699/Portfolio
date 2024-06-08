@@ -60,3 +60,10 @@
     transform: rotate(225deg);
     transition-delay: 0s,calc(0s + 0.35s);
   }
+
+@media (max-width: 400px) {
+  .toggle {
+    width: 25px;
+    height: calc(2px * 2 + 5px * 1);
+  }
+}
